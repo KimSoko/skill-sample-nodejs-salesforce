@@ -14,7 +14,7 @@ module.exports = Object.freeze({
   appId: process.env.SKILL_ID || 'run-hackathon-alexa-2021-FirstSkill',
 
   // Salesforce Constants
-  INSTANCE_URL: process.env.INSTANCE_URL || '', // TODO Set your own. KS done 12/21
+  INSTANCE_URL: process.env.INSTANCE_URL || 'https://gatesfoundation--gmooredev.my.salesforce.com/', // TODO Set your own. KS done 12/21
   VOICE_CODE_OBJECT_NAME: process.env.VOICE_CODE_OBJECT_NAME || 'voice_code__c',
   VOICE_CODE_FIELD_NAME: process.env.VOICE_CODE_FIELD_NAME || 'code__c',
 
