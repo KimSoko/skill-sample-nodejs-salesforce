@@ -11,7 +11,7 @@
 module.exports = Object.freeze({
 
   // App-ID. TODO: set to your own Skill App ID from the developer portal. KS done 12/21 9:51 am MT
-  appId: process.env.SKILL_ID || 'run-hackathon-alexa-2021-FirstSkill',
+  appId: process.env.SKILL_ID || 'amzn1.ask.skill.b0aca37b-2375-43b6-8e54-3e1a3fd69b89',
 
   // Salesforce Constants
   INSTANCE_URL: process.env.INSTANCE_URL || 'https://gatesfoundation--gmooredev.my.salesforce.com/', // TODO Set your own. KS done 12/21
